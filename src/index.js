@@ -1,5 +1,5 @@
 
-const isPromise = payload => {
+export const isPromise = payload => {
   return payload && typeof payload.then == 'function';
 };
 
